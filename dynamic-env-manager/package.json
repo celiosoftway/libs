@@ -1,0 +1,17 @@
+
+{
+  "name": "@celiosoftway/envjs",
+  "version": "0.1.1",
+  "description": "Dinamic update of the environment variables in a Telegraf bot",
+  "main": "src/index.js",
+  "keywords": [
+    ".env",
+    "environment",
+    "variables",
+    "dynamic",
+    "update",
+    "bot"
+  ],
+  "author": "Celio Augusto",
+  "license": "MIT"
+}
