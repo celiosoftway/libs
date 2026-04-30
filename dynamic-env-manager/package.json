@@ -1,17 +1,30 @@
-
 {
   "name": "@zeitnotbr/envjs",
   "version": "0.1.1",
-  "description": "Dinamic update of the environment variables in a Telegraf bot",
+  "description": "Dynamic environment variable management for Node.js and Telegraf bots",
   "main": "src/index.js",
   "keywords": [
-    ".env",
+    "env",
     "environment",
     "variables",
     "dynamic",
-    "update",
-    "bot"
+    "config",
+    "bot",
+    "telegraf"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celiosoftway/libs.git",
+    "directory": "libs/envjs"
+  },
+  "homepage": "https://github.com/celiosoftway/libs/tree/main/libs/envjs",
   "author": "Celio Augusto",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish:npm": "npm publish",
+    "publish:github": "npm pkg set name=@celiosoftway/envjs && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/envjs"
+  }
 }

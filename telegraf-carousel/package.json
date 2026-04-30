@@ -10,9 +10,22 @@
     "carousel",
     "telegram-bot"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celiosoftway/libs.git",
+    "directory": "libs/telegraf-carousel"
+  },
+  "homepage": "https://github.com/celiosoftway/libs/tree/main/libs/telegraf-carousel",
   "author": "Celio Augusto",
   "license": "MIT",
   "peerDependencies": {
     "telegraf": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish:npm": "npm publish",
+    "publish:github": "npm pkg set name=@celiosoftway/telegraf-carousel && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/telegraf-carousel"
   }
 }

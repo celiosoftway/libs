@@ -1,0 +1,29 @@
+{
+  "name": "@zeitnotbr/crypto",
+  "version": "0.1.1",
+  "description": "Hybrid encryption (password + key file + optional context) using AES-256-GCM",
+  "main": "src/index.js",
+  "keywords": [
+    "crypto",
+    "encryption",
+    "aes-256-gcm",
+    "security",
+    "key-management",
+    "web3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celiosoftway/libs.git",
+    "directory": "libs/crypto"
+  },
+  "homepage": "https://github.com/celiosoftway/libs/tree/main/libs/crypto",
+  "author": "Celio Augusto",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish:npm": "npm publish",
+    "publish:github": "npm pkg set name=@celiosoftway/crypto && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/crypto"
+  }
+}
