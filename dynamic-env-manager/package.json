@@ -1,6 +1,6 @@
 
 {
-  "name": "@celiosoftway/envjs",
+  "name": "@zeitnotbr/envjs",
   "version": "0.1.1",
   "description": "Dinamic update of the environment variables in a Telegraf bot",
   "main": "src/index.js",
