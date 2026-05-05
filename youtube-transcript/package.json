@@ -1,0 +1,29 @@
+{
+  "name": "@zeitnotbr/youtube-transcript",
+  "version": "0.1.1",
+  "description": "Generic carousel viewer for Telegraf bots",
+  "main": "src/index.js",
+  "keywords": [
+    "youtube",
+    "transcript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celiosoftway/libs.git",
+    "directory": "libs/youtube-transcript"
+  },
+  "homepage": "https://github.com/celiosoftway/libs/tree/main/libs/youtube-transcript",
+  "author": "Celio Augusto",
+  "license": "MIT",
+  "peerDependencies": {
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish:npm": "npm publish",
+    "publish:github": "npm pkg set name=@celiosoftway/telegraf-carousel && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/telegraf-carousel"
+  }
+}
