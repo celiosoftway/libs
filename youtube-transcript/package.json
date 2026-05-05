@@ -24,6 +24,6 @@
   },
   "scripts": {
     "publish:npm": "npm publish",
-    "publish:github": "npm pkg set name=@celiosoftway/telegraf-carousel && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/telegraf-carousel"
+    "publish:github": "npm pkg set name=@celiosoftway/youtube-transcript && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/youtube-transcript"
   }
 }
