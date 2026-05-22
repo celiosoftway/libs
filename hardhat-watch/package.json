@@ -1,0 +1,29 @@
+{
+  "name": "@zeitnotbr/hardhat-watch",
+  "version": "0.1.1",
+  "description": "Hardhat watch plugin",
+  "main": "src/index.js",
+  "keywords": [
+    "hardhat",
+    "watch",
+    "web3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celiosoftway/libs.git",
+    "directory": "libs/hardhat-watch"
+  },
+  "homepage": "https://github.com/celiosoftway/libs/tree/main/libs/hardhat-watch",
+  "author": "Celio Augusto",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+    "peerDependencies": {
+     "chalk": "^4.1.2"
+  },
+  "scripts": {
+    "publish:npm": "npm publish",
+    "publish:github": "npm pkg set name=@celiosoftway/hardhat-watch && npm publish --registry=https://npm.pkg.github.com && npm pkg set name=@zeitnotbr/hardhat-watch"
+  }
+}
